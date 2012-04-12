@@ -1,0 +1,34 @@
+create database labrador;
+
+use labrador;
+
+Create table hash(
+	id int(8) NOT NULL AUTO INCREMENT,
+	arquivo varchar(250) NOT NULL,
+	md5 varchar(80),
+	sha1 varchar(80),
+	sha224 varchar(80),
+	sha256 varchar(80),
+	sha384 varchar(80),
+	sha512 varchar(80),
+	haval varchar(80),
+	whirpool varchar(80),
+	ripemd160 varchar(80),
+	crc64 varchar(80),
+	crc32 varchar(80),
+	crc16 varchar(80),
+	crc8 varchar(80),
+	crcccitt varchar(80),
+	mode varchar(80),
+	gid varchar(80),
+	uid varchar(80),
+	nlink varchar(80),
+	inode varchar(80),
+	mtime varchar(80),
+	atime varchar(80),
+	ctime varchar(80),
+	size varchar(80),
+	blocks varchar(80),
+	dev varchar(80),
+	PRIMARY KEY (id)
+);
